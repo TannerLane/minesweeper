@@ -9,6 +9,6 @@ class Tile
 
   def to_s
     return "X" if is_mine
-    return "O"
+    return num_neighbor_mines.to_s
   end
 end
